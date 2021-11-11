@@ -1,2 +1,3 @@
-# reading-heads-up-design-patterns-2ed
-Content related to reading the book Heads up design patterns.
+# Reading Head First Design Patterns
+
+Content related to reading the book Head First Design Patterns, Second Edition.
