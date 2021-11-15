@@ -14,3 +14,7 @@ Which of the following are disadvantages of using inheritance to provide Duck be
 4. It's hard to gain knowledge of all duck behaviors. (True)
 5. Ducks can't fly and quack at the same time. (False)
 6. Changes can unintentionally affect other ducks. (True)
+
+## Chapter 2
+
+## Chapter 3
