@@ -4,16 +4,16 @@ Content related to reading the book Head First Design Patterns, Second Edition.
 
 ## Chapter 1
 
-### Sharpen Your Pencil Page 56
+### Sharpen Your Pencil - Inheritance to Provide Duck Behaviour
 
-Which of the following are disadvantages of using inheritance to provide Duck behavior?
+The ticked checkboxes indicates an disadvantages of using *inheritance* to provide Duck behaviour?
 
-1. Code is duplicated across subclasses. (True)
-2. Runtime behavior changes are difficult. (True)
-3. We can't make ducks dance. (False)
-4. It's hard to gain knowledge of all duck behaviors. (True)
-5. Ducks can't fly and quack at the same time. (False)
-6. Changes can unintentionally affect other ducks. (True)
+- [x] Code is duplicated across subclasses.
+- [x] Runtime behaviour changes are difficult.
+- [ ] We can't make ducks dance.
+- [x] It's hard to gain knowledge of all duck behaviors.
+- [ ] Ducks can't fly and quack at the same time. (False)
+- [x] Changes can unintentionally affect other ducks. (True)
 
 ## Chapter 2
 
