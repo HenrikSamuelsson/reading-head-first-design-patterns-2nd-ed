@@ -6,7 +6,7 @@ Content related to reading the book Head First Design Patterns, Second Edition.
 
 ### Sharpen Your Pencil - Inheritance Disadvantages
 
-The ticked checkboxes indicates an disadvantages of using *inheritance* to provide Duck behaviour?
+The ticked checkboxes indicates an disadvantages of using *inheritance* to provide Duck behaviour:
 
 - [x] Code is duplicated across subclasses.
   - For example the overridden `fly()` method in `RubberDuck` and `DecoyDuck`, being identical.
