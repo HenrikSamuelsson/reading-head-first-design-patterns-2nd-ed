@@ -19,7 +19,7 @@ The ticked checkboxes indicates an disadvantages of using *inheritance* to provi
 - [ ] Ducks can't fly and quack at the same time.
   - False, a duck can both fly an quack, assuming our system supports parallelism.
 - [x] Changes can unintentionally affect other ducks.
-  - Example being when Joe by mistake made the rubber ducks able to fly.
+  - On example being when Joe by mistake made the rubber ducks able to fly.
 
 ### Sharpen Your Pencil - Change
 
@@ -33,6 +33,13 @@ Lots of things can drive change, some reasons are:
 - An hardware component previously used have reached end of life, need to adapt to another component.
 - A defect was discovered in a shared software component that we use and we need to upgrade to the new latest version.
 - The number of parallel users have increased and we need to optimize the performance of the software for speed to keep up.
+
+### Sharpen Your Pencil - Program to an Interface
+
+- Using our new design, what would you do if you needed to add rocket-powered flying to the SimUDuck app?
+  - Create a new class `FlyRocketPowered` that implements the `FlyBehaviour` interface, just as the existing classes `FlyWithWings` and `FlyNoWay`.
+- Can you think of a class that might want to use the `Quack` behaviour that isn’t a duck?
+  - One example is a duck call, a device that makes duck sounds.
 
 ## Chapter 2
 
