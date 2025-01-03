@@ -21,6 +21,19 @@ The ticked checkboxes indicates an disadvantages of using *inheritance* to provi
 - [x] Changes can unintentionally affect other ducks.
   - Example being when Joe by mistake made the rubber ducks able to fly.
 
+### Sharpen Your Pencil - Change
+
+Lots of things can drive change, some reasons are:
+
+- My customers or users decide they want something else or, they want new functionality.
+- My company decided it is going with another database vendor and it is also purchasing its data from another supplier that uses a different data format. Aargh!
+- Well, technology changes and we’ve got to update our code to make use of protocols.
+- We’ve learned enough building our system that we’d like to go back and do things a little better.
+- There are new requirements incoming regarding security.
+- An hardware component previously used have reached end of life, need to adapt to another component.
+- A defect was discovered in a shared software component that we use and we need to upgrade to the new latest version.
+- The number of parallel users have increased and we need to optimize the performance of the software for speed to keep up.
+
 ## Chapter 2
 
 ## Chapter 3
