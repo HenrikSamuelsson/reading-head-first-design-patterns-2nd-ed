@@ -2,6 +2,8 @@
 
 Content related to reading the book Head First Design Patterns, Second Edition.
 
+The source code from the book can be downloaded from [Wickedly Smart - Head First Design Patterns](https://wickedlysmart.com/head-first-design-patterns).
+
 ## Chapter 1
 
 ### Sharpen Your Pencil - Inheritance Disadvantages
