@@ -45,7 +45,7 @@ Lots of things can drive change, some reasons are:
 - There are new requirements incoming regarding security.
 - An hardware component previously used have reached end of life, need to adapt to another component.
 - A defect was discovered in a shared software component that we use and we need to upgrade to the new latest version.
-- The number of parallel users have increased and we need to optimize the performance of the software for speed to keep up.
+- The number of users have increased and we need to optimize the performance of the software to keep up.
 
 ### Sharpen Your Pencil - Program to an Interface
 
