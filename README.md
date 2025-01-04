@@ -54,6 +54,10 @@ Lots of things can drive change, some reasons are:
 - Can you think of a class that might want to use the `Quack` behaviour that isn’t a duck?
   - One example is a duck call, a device that makes duck sounds.
 
+### Design Puzzle - Game Characters
+
+![Game characters class diagram](images/game-characters.png)
+
 ## Chapter 2
 
 ## Chapter 3

@@ -1,0 +1,46 @@
+@startuml game-characters
+
+abstract class Character
+Character : WeaponBehaviour weapon
+Character : fight()
+Character : setWeapon(WeaponBehaviour w)
+Character <|-- Queen : extends
+Character <|-- King : extends
+Character <|-- Troll : extends
+Character <|-- Knight : extends
+Character --> WeaponBehaviour : HAS-A
+
+note top of Character : Abstract
+
+interface WeaponBehaviour <<interface>> 
+WeaponBehaviour : useWeapon()
+WeaponBehaviour <|-[dotted]- KnifeBehaviour : implements 
+WeaponBehaviour <|-[dotted]- BowAndArrowBehaviour : implements
+WeaponBehaviour <|-[dotted]- AxeBehaviour : implements
+WeaponBehaviour <|-[dotted]- SwordBehaviour : implements
+
+class Queen
+Queen : fight()
+
+class King
+King : fight()
+
+class Troll
+Troll : fight()
+
+class Knight
+Knight : fight()
+
+class KnifeBehaviour
+KnifeBehaviour : useWeapon()
+
+class BowAndArrowBehaviour
+BowAndArrowBehaviour : useWeapon()
+
+class AxeBehaviour
+AxeBehaviour : useWeapon()
+
+class SwordBehaviour
+SwordBehaviour : useWeapon()
+
+@enduml
