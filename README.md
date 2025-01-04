@@ -4,7 +4,18 @@ Content related to reading the book Head First Design Patterns, Second Edition.
 
 The source code from the book can be downloaded from [Wickedly Smart - Head First Design Patterns](https://wickedlysmart.com/head-first-design-patterns).
 
-## Chapter 1
+## Design Principles
+
+&#x262F; Identify the aspects of your application that vary and separate them from what stays the same.  
+&#x262F; Program to an interface, not an implementation.  
+&#x262F; Favour composition over inheritance.  
+
+## Design Patterns
+
+> **Strategy**  
+> The strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+
+## Chapter 1 Welcome to Design Patterns: Intro to Design Patterns
 
 ### Sharpen Your Pencil - Inheritance Disadvantages
 
