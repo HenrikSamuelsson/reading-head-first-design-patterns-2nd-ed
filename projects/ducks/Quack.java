@@ -1,4 +1,4 @@
-package ducks;
+package projects.ducks;
 
 public class Quack implements QuackBehaviour{
     public void quack() {

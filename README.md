@@ -56,7 +56,7 @@ Lots of things can drive change, some reasons are:
 
 ### Design Puzzle - Game Characters
 
-![Game characters class diagram](images/game-characters.png)
+![Game characters class diagram](resources/images/game-characters.png)
 
 ## Chapter 2
 

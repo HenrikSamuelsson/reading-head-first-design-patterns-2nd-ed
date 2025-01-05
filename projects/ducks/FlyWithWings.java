@@ -1,4 +1,4 @@
-package ducks;
+package projects.ducks;
 
 public class FlyWithWings implements FlyBehaviour{
     public void fly() {

@@ -1,4 +1,4 @@
-package ducks;
+package projects.ducks;
 
 public class ModelDuck extends Duck {
     public ModelDuck() {
