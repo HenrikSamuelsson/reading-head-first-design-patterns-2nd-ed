@@ -60,4 +60,17 @@ Lots of things can drive change, some reasons are:
 
 ## Chapter 2
 
+### Sharpen Your Pencil - First Misguided Weather Station Implementation
+
+Based on the first `WeatherData` implementation, which of the following apply?
+
+- [X] We are coding to concrete implementations, not interfaces.
+- [X] For every new display we’ll need to alter this code.
+- [X] We have no way to add (or remove) display elements at runtime.
+- [ ] The display elements don’t implement a common interface.
+  - The `update` method is a common interface that all display elements have.
+- [X] We haven’t encapsulated the part that changes.
+- [ ] We are violating encapsulation of the `WeatherData` class.
+  - False, since we only use the public interfaces of the `WeatherData` class.
+
 ## Chapter 3
