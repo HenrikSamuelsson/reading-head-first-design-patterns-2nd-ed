@@ -63,7 +63,7 @@ Lots of things can drive change, some reasons are:
 
 ![Game characters class diagram](resources/images/game-characters.png)
 
-## Chapter 2
+## Chapter 2 - Keeping your Objects in the Know: The Observer Pattern
 
 ### Sharpen Your Pencil - First Misguided Weather Station Implementation
 
