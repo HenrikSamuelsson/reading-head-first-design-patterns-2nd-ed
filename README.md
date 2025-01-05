@@ -13,7 +13,12 @@ The source code from the book can be downloaded from [Wickedly Smart - Head Firs
 ## Design Patterns
 
 > **Strategy**  
-> The strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+The strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+
+The strategy pattern is used in the `ducks` project part of this repository.
+
+> **Observer**  
+The observer pattern defines a on-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 
 ## Chapter 1 Welcome to Design Patterns: Intro to Design Patterns
 
