@@ -9,6 +9,7 @@ The source code from the book can be downloaded from [Wickedly Smart - Head Firs
 &#x262F; Identify the aspects of your application that vary and separate them from what stays the same.  
 &#x262F; Program to an interface, not an implementation.  
 &#x262F; Favour composition over inheritance.  
+&#x262F; Strive for loosely coupled designs between objects that interact.  
 
 ## Design Patterns
 
