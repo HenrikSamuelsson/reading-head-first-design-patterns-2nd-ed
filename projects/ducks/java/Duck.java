@@ -1,4 +1,4 @@
-package projects.ducks;
+package projects.ducks.java;
 
 public abstract class Duck {
     FlyBehaviour flyBehaviour;

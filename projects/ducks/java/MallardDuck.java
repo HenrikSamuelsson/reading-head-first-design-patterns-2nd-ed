@@ -1,4 +1,4 @@
-package projects.ducks;
+package projects.ducks.java;
 
 public class MallardDuck extends Duck {
     public MallardDuck() {
