@@ -79,4 +79,8 @@ Based on the first `WeatherData` implementation, which of the following apply?
 - [ ] We are violating encapsulation of the `WeatherData` class.
   - False, since we only use the public interfaces of the `WeatherData` class.
 
+### Sharpen Your Pencil - Weather Station Classes
+
+![Weather station class diagram](resources/images/weather-station.png)
+
 ## Chapter 3

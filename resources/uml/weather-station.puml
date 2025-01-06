@@ -1,0 +1,58 @@
+@startuml weather-station
+
+interface Subject <<interface>>
+Subject : registerObserver()
+Subject : removeObserver()
+Subject : notifyObserver()
+
+interface Observer <<interface>>
+Observer : update()
+
+interface DisplayElement <<interface>>
+DisplayElement : display()
+
+class WeatherData
+WeatherData : registerObserver()
+WeatherData : removeObserver()
+WeatherData : notifyObserver()
+WeatherData : getTemperature()
+WeatherData : getHumidity()
+WeatherData : getPressure()
+WeatherData : measurementsChanged()
+
+class CurrentConditionsDisplay
+CurrentConditionsDisplay : update()
+CurrentConditionsDisplay : display()
+
+class StatisticsDisplay
+StatisticsDisplay : update()
+StatisticsDisplay : display()
+
+class ForecastDisplay
+ForecastDisplay : update()
+ForecastDisplay : display()
+
+class ThirdPartyDisplay
+ThirdPartyDisplay : update()
+ThirdPartyDisplay : display()
+
+Subject -[plain]-> Observer
+
+Subject <|-[dashed]- WeatherData
+
+Observer <|-[dashed]- CurrentConditionsDisplay
+Observer <|-[dashed]- StatisticsDisplay
+Observer <|-[dashed]- ForecastDisplay
+Observer <|-[dashed]- ThirdPartyDisplay
+
+DisplayElement <|-[dashed]- CurrentConditionsDisplay
+DisplayElement <|-[dashed]- StatisticsDisplay
+DisplayElement <|-[dashed]- ForecastDisplay
+DisplayElement <|-[dashed]- ThirdPartyDisplay
+
+WeatherData <-[plain]- CurrentConditionsDisplay
+WeatherData <-[plain]- StatisticsDisplay
+WeatherData <-[plain]- ForecastDisplay
+WeatherData <-[plain]- ThirdPartyDisplay
+
+@enduml
