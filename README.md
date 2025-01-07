@@ -4,7 +4,19 @@ Content related to reading the book Head First Design Patterns, Second Edition.
 
 The source code from the book can be downloaded from [Wickedly Smart - Head First Design Patterns](https://wickedlysmart.com/head-first-design-patterns).
 
-## Design Principles
+## Object-oriented Programming
+
+> Object-oriented programming (OOP) is a programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods). In OOP, computer programs are designed by making them out of objects that interact with one another.  
+Source: [Wikipedia - Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+
+## OOP Basics
+
+- Abstraction
+- Encapsulation
+- Polymorphism
+- Inheritance
+
+## OOP Design Principles
 
 &#x262F; Identify the aspects of your application that vary and separate them from what stays the same.  
 &#x262F; Program to an interface, not an implementation.  
@@ -12,7 +24,7 @@ The source code from the book can be downloaded from [Wickedly Smart - Head Firs
 &#x262F; Strive for loosely coupled designs between objects that interact.  
 &#x262F; Classes should be open for extension, but closed for modification.  
 
-## Design Patterns
+## OOP Design Patterns
 
 > **Strategy**  
 The strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
