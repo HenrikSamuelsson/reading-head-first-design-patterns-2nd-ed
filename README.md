@@ -10,6 +10,7 @@ The source code from the book can be downloaded from [Wickedly Smart - Head Firs
 &#x262F; Program to an interface, not an implementation.  
 &#x262F; Favour composition over inheritance.  
 &#x262F; Strive for loosely coupled designs between objects that interact.  
+&#x262F; Classes should be open for extension, but closed for modification.  
 
 ## Design Patterns
 
@@ -62,7 +63,7 @@ Lots of things can drive change, some reasons are:
 
 ### Design Puzzle - Game Characters
 
-![Game characters class diagram](resources/images/game-characters.png)
+![Game characters class diagram](/resources/images/game-characters.png)
 
 ## Chapter 2 - Keeping your Objects in the Know: The Observer Pattern
 
@@ -81,6 +82,10 @@ Based on the first `WeatherData` implementation, which of the following apply?
 
 ### Sharpen Your Pencil - Weather Station Classes
 
-![Weather station class diagram](resources/images/weather-station.png)
+![Weather station class diagram](/resources/images/weather-station.png)
 
 ## Chapter 3
+
+### Sharpen Your Pencil - Double Mocha Soy Latte with Whip
+
+![Double  Mocha Soy Latte with Whip](/resources/images/double-mocha-soy-latte-with-whip.png)
